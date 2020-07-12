@@ -19,10 +19,6 @@ end
 def remove_element_from_end_of_array(array)
   numbers = ["1", "2", "3", "4"]
   arrays!(remove_element_from_end_of_array(array)) = numbers.pop
-  
-  
-    array = ["I", "am", "really", "learning", "arrays!"]
-    expect(remove_element_from_end_of_array(array)).to eq("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
